@@ -1,0 +1,43 @@
+.intro {
+    color: darkgreen;
+}
+
+body {
+    width: 760px;
+    position: relative;
+    padding-left: 1.5em;
+}
+
+h1,
+h2 {
+    font-family: georgia;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#label {
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cia {
+    float: left;
+    margin-right: 30px;
+    width: 40%;
+    height: auto;
+}
+
+#important {
+    font-weight: bold;
+}
