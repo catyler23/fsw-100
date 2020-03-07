@@ -8,18 +8,22 @@
 
 .top-container {
   background-color: #ffd082;
+  margin-top: 20px;
 }
 
 .middle-container {
   text-align: center;
   background-color: #ff7c7c;
   padding-bottom: 10px;
+  font-family: 'Arimo', sans-serif;
 }
 
 .profile {
   background-color: #baf1a1;
   text-align: center;
   padding-bottom: 30px;
+  font-family: 'Noto Sans SC', sans-serif;
+
 }
 
 #message {
@@ -33,7 +37,7 @@
   text-align: center;
 }
 
-.Owner{
+.Owner {
   border-radius: 50px;
   height: 300px;
   width: 200px;
