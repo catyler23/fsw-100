@@ -3,13 +3,9 @@
     
 }
 
-/* .item {
-    border: 2px solid black;
-} */
-
 
 /*big screen*/
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
 
     .grid-container {
         display: grid;
@@ -80,7 +76,7 @@
 
   /*phone*/
  
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
     
     .item1 {
         background-color: #f5c6d6;
