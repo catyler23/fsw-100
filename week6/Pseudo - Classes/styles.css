@@ -1,0 +1,94 @@
+
+div {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
+
+}
+
+div:nth-child(1) {
+    background-color: pink;
+    height: 200px;
+    transition: background-color, width .2s, 4s;
+    transition-timing-function: ease-in-out;
+    /* transition-delay: 5s; */
+}
+
+div:hover :nth-child(1) {
+    background-color: red;
+    width: 400px;
+}
+
+div:nth-child(2) {
+    background-color: fuchsia;
+    border-radius: 6px;
+    height: 200px;
+    line-height: 200px;
+    transition-property: background-color, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear;
+    /* transition: background-color border-radius .2s, 1s, linear; */
+    width: 200px;
+}
+
+div:hover :nth-child(2) {
+    background-color: blue;
+    border-radius: 50%;
+
+
+}
+
+div:nth-child(3) {
+    background-color: gold;
+    height: 200px;
+    border: 1px solid black;
+    transition-property: width;
+    transition-duration: .5s, 4s;
+    transition-timing-function: steps(6, end);
+    transition-delay: 0s, 1s;
+}
+
+div:hover :nth-child(3) {
+    background-color: lightgrey;
+    width: 400px;
+}
+
+div:nth-child(4) {
+    background-color: green;
+    height: 200px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+div:hover :nth-child(4) {
+    background-color: maroon;
+}
+
+div:nth-child(5) {
+    background-color: purple;
+    height: 200px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+
+}
+
+div:hover :nth-child(5) {
+    background-color: mediumspringgreen;
+    transform: rotate(180deg);
+}
+
+div:nth-child(6) {
+    background-color: brown;
+    height: 200px;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: inherit;
+}
+
+div:hover :nth-child(6) {
+    background-color: black;
+    transform: skew(15deg, 15deg);
+}
