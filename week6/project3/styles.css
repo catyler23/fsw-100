@@ -1,0 +1,99 @@
+
+/* *, *:before, *:after {
+  box-sizing: inherit;
+} */
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #cd4545;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #f16821;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.top-container {
+  background-color: #fffe9a;
+  color: #cd4545;
+  line-height: 2;
+  padding-top: 100px;
+  position: relative
+}
+
+.middle-container {
+  border-radius: 50%;
+}
+
+
+.cupcake-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.developer-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  font-size: 27px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.paragraph {
+  color: #f3a333;
+}
+
+.programmer {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.caprease {
+  border-radius: 50%;
+  height: auto;
+  margin-top: 10px;
+  width: 12.25rem;
+}
+nav a:hover{
+color: #cd4545;
+background-color: #fffe9a;
+}
+
+body {
+  font-family: 'Cormorant', serif;
+  font-size: 200%;
+  text-align: center;
+}
+

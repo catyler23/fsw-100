@@ -1,0 +1,126 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* smaller phone screen */
+@media only screen and (max-width: 600px) {
+    body>div {
+        border: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows: 600px 600px 1fr;
+        /* grid-template-columns: repeat(3, 1fr);*/
+    }
+
+    .top-container {
+        /* grid-column: 1/2; */
+        grid-column: 1/-1;
+    }
+
+    nav {
+        grid-row: 2;
+
+    }
+
+    .middle-container {
+        grid-column: 3;
+        grid-row: 4/ -1;
+    }
+
+    .skills {
+        grid-row: 4/ -1;
+    }
+
+    .bottom-container {
+        grid-row: 5;
+    }
+}
+
+/* tablet screen */
+@media only screen and (min-width: 768px) {
+
+    body>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows: 600px 400px 600px;
+        /* grid-template-columns: repeat(6, 1fr); */
+    }
+
+    .top-container {
+        grid-column: 1 / -1;
+        /* grid-row: 1; */
+    }
+
+    nav {
+        /* grid-column: ; */
+        grid-row: 2;
+    }
+
+    .middle-container {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .skills {
+        /* grid-column: ; */
+        grid-row: 4;
+    }
+
+    .bottom-container {
+        /* grid-column: ; */
+        grid-row: 5;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 900px) {
+    body>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows: 600px 400px 600px;
+        /* grid-template-columns: repeat(6, 1fr); */
+    }
+
+    .top-container {
+        grid-column: 1 / -1;
+        /* grid-row: 1; */
+    }
+
+    nav {
+        /* grid-column: ; */
+        grid-row: 2;
+    }
+
+    .middle-container {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .skills {
+        /* grid-column: ; */
+        grid-row: 4;
+    }
+
+    .bottom-container {
+        /* grid-column: ; */
+        grid-row: 5;
+    }
+}
