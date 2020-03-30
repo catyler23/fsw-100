@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+body {
+  font-family: "Quicksand";
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 10px;
+
+}
+
+.header {
+  width: 100%;
+  height: 70vh;
+  background: url(BG.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: table;
+  text-align: center;
+  /* padding-bottom: 2.5rem; */
+}
+/* Photo by Giulio Magnifico on Unsplash*/
+/**/
+.about .container {
+  background: linear-gradient(0.25turn, #ffe75e, #527318, #f69d3c);
+  height: 93vh;
+  width: 99%;
+  position: absolute;
+  color: white;
+}
+
+
+.about {
+  padding-bottom: 10px;
+  /* margin-top: px; */
+}
+
+.about-img {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 78% 79%, 0% 79%);
+}
+
+.shape {
+  position: relative;
+  bottom: 640px;
+  left: 200px;
+}
+
+.about-link {
+  font-size: 100px;
+}
+
+.p-first {
+  margin-bottom: 30px;
+}
+
+.about h2 {
+  margin-bottom: 47px;
+  margin-top: 12px;
+}
+
+.about-link {
+  padding-left: 0px;
+  
+}
+ul{
+  color: #fff;
+}
+.about-link li {
+  display: inline-block;
+}
+.about-link li a i {
+  width: 80px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+}
+
+/**/
+.grid-container {
+  min-height: 100%;
+}
+
+/*Logo*/
+.logo-box {
+  position: absolute;
+  top: 1px;
+  left: 60px;
+}
+
+.logo {
+  height: 200px;
+}
+
+/* nav bar*/
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 90px;
+}
+.nav a:hover {
+  background-color: #527318;
+}
+.left {
+  float: right;
+}
+
+.left ul {
+  list-style: none;
+  padding: 2em 3em;
+}
+
+.left ul li {
+  display: inline-block;
+  width: 10em;
+}
+
+.left ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  padding: 8px 16px;
+}
+.left li:nth-child(2) a {
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+div .nav {
+  padding-bottom: 2em;
+}
+/*top containter*/
+
+.photography {
+  text-align: center;
+  color: #527318 !important;
+  font-size: 30px;
+}
+.top-container {
+  line-height: 1.5;
+}
+h1 {
+  text-align: center;
+}
+main {
+  margin-bottom: 350px;
+}
+.cloud {
+  opacity: 0.3;
+  height: 150px;
+  width: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 500px;
+}
+.top-container {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+h1 {
+  color: #e0d20c !important;
+  font-family: "Cormorant", cursive;
+  font-size: 12px;
+  line-height: 2;
+  margin-top: 60px;
+}
+
+/*profile class*/
+.caprease {
+  margin-top: 700px;
+  border-radius: 50px;
+  height: 300px;
+  line-height: 200px;
+  width: 300px;
+  margin-bottom: 50px;
+}
+.profile {
+  margin-left: 700px;
+  color: #899857;
+  position: relative;
+}
+h2 .paragraph {
+  color: #cd4545;
+  font-family: "Philosopher", sans-serif;
+  font-size: 6rem;
+  font-weight: normal;
+}
+.paragraph {
+  font-size: 20px;
+}
+p {
+  margin-bottom: 200px;
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  top: 1600px;
+  /* width: 100%; */
+  margin: 0 auto;
+  left: 200px;
+
+}
+
+h3 {
+  color: #f16821 !important;
+  font-family: "Philosopher", sans-serif;
+}
