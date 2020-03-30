@@ -208,14 +208,27 @@ p {
 
 footer {
   position: absolute;
-  top: 1600px;
+  transform: translate(100px, 880px);
+  /* top: 1600px;
   /* width: 100%; */
-  margin: 0 auto;
-  left: 200px;
+ /* margin: 0 auto;
+  left: 200px; */
 
 }
 
 h3 {
   color: #f16821 !important;
   font-family: "Philosopher", sans-serif;
+}
+
+@media (min-width: 700px) {
+  body, .nav {   
+    display: flex;
+    flex-direction: column;
+    
+  }
+  footer{
+    justify-content: flex-end;
+    
+  }
 }
